@@ -1,0 +1,4 @@
+#!/bin/bash
+read -p "Enter a string: " input_string
+result=$(echo "$input_string" | tr -d 'cC')
+echo "Result: $result"

@@ -1,0 +1,3 @@
+#!/bin/bash
+count=$(find . -type d -not \( -name '.' -o -name '..' \) | wc -l)
+echo "Number of directories and sub-directories (including hidden): $count"

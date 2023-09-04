@@ -1,0 +1,5 @@
+#!/bin/bash
+file_name='*\\'"Best School"'\\*$?*****:)'
+touch "$file_name"
+echo "Best School" > "$file_name"
+echo "File '$file_name' has been created with content 'Best School'."
