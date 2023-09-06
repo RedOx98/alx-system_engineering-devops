@@ -1,0 +1,4 @@
+#!/bin/bash
+path_directories=$(echo "$PATH" | tr ':' '\n')
+dir_count=$(echo "$path_directories" | wc -l)
+echo "$dir_count"

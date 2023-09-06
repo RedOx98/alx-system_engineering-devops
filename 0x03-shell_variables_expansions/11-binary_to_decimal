@@ -1,0 +1,4 @@
+#!/bin/bash
+export BINARY=10
+decimal_val=$(echo "ibase=2; $BINARY" | bc)
+echo $decimal_val

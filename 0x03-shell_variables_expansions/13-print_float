@@ -1,0 +1,3 @@
+#!/bin/bash
+export NUM=1256.87986546788
+printf "%.2f\n" "$NUM"
